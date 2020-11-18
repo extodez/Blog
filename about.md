@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-Something about me.
+I'm a Cyber Security/Penetration Tester and enjoying with security knowledge.
