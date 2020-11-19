@@ -116,6 +116,7 @@ sudo gedit /etc/samba/smb.conf
 smbclient -L //10.10.10.3/ --option='client min protocol=NT1'
 ```
 จากนั้นผลลัพธ์ที่ได้จะออกมาลักษณะนี้
+
 ![](https://gblobscdn.gitbook.com/assets%2F-MHuMmzGhYGjfRNXyWFK%2F-MHutFwjHjtxX-Z_RUir%2F-MHuxEorqxMaV-NDsEIg%2Fimage.png?alt=media&token=5c34c0a6-ff4e-485e-96be-90f620822eab)
 
 เราสามารถตรวจสอบ permission ของเราได้โดยใช้คำสั่งนี้ 
