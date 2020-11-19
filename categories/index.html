@@ -1,33 +1,145 @@
-<section>
-  {% if site.posts[0] %}
 
-    {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-    {% capture firstpostyear %}{{ site.posts[0].date | date: '%Y' }}{% endcapture %}
-    {% if currentyear == firstpostyear %}
-        <h3>This year's posts</h3>
-    {% else %}  
-        <h3>{{ firstpostyear }}</h3>
-    {% endif %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="generator" content="Jekyll">
 
-    {%for post in site.posts %}
-      {% unless post.next %}
+  <title>Archive</title>
+
+  <link rel="stylesheet" href="/Writeups/css/main.css">
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Archive | Bl@CK_CAT-Blog</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Archive" />
+<meta name="author" content="Bl@ackCaT" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I Love CAT!" />
+<meta property="og:description" content="I Love CAT!" />
+<link rel="canonical" href="https://extodez.github.io/Writeups/archive" />
+<meta property="og:url" content="https://extodez.github.io/Writeups/archive" />
+<meta property="og:site_name" content="Bl@CK_CAT-Blog" />
+<script type="application/ld+json">
+{"url":"https://extodez.github.io/Writeups/archive","@type":"WebPage","headline":"Archive","author":{"@type":"Person","name":"Bl@ackCaT"},"description":"I Love CAT!","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Archive | Bl@CK_CAT-Blog</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Archive" />
+<meta name="author" content="Bl@ackCaT" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I Love CAT!" />
+<meta property="og:description" content="I Love CAT!" />
+<link rel="canonical" href="https://extodez.github.io/Writeups/archive" />
+<meta property="og:url" content="https://extodez.github.io/Writeups/archive" />
+<meta property="og:site_name" content="Bl@CK_CAT-Blog" />
+<script type="application/ld+json">
+{"url":"https://extodez.github.io/Writeups/archive","@type":"WebPage","headline":"Archive","author":{"@type":"Person","name":"Bl@ackCaT"},"description":"I Love CAT!","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+
+<body>
+  <div id="wrapper">
+    <header>
+  <div>
+    <a href="/Writeups/">
+    
+    <h1>bl@ck_cat@home:~$</h1>
+    </a>
+    <div class="header-links">
+      <a href="/Writeups/archive"><h2 class="header-link">Archive</h2></a>
+<a href="/Writeups/about"><h2 class="header-link">About</h2></a>
+<a href="/Writeups/categories/HTB-Retired"><h2 class="header-link">HTB-Retired</h2></a>
+<a href="/Writeups/atom.xml"><h2 class="header-link">RSS</h2></a>
+
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <section id="main_content">
+        <article>
+  <section>
+  
+
+    
+    
+      
+        <h3>2018</h3>
+    
+
+    
+      
         <ul>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          </ul>
-          <h3>{{ post.date | date: '%Y' }}</h3>
-          <ul>
-        {% endif %}
-      {% endunless %}
-        <li><time>{{ post.date | date:"%d %b" }} - </time>
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            {{ post.title }}
+      
+        <li><time>06 Jan - </time>
+          <a href="/Writeups/Yet-Another-Sample-Page">
+            Yet Another Sample Page
           </a>
         </li>
-    {% endfor %}
+    
+      
+        
+        
+        
+          </ul>
+          <h3>2017</h3>
+          <ul>
+        
+      
+        <li><time>12 Dec - </time>
+          <a href="/Writeups/Sample-Page">
+            Sample Page
+          </a>
+        </li>
+    
+      
+        
+        
+        
+      
+        <li><time>11 Dec - </time>
+          <a href="/Writeups/One-More-Sample-Page">
+            One More Sample Page
+          </a>
+        </li>
+    
+      
+        
+        
+        
+      
+        <li><time>10 Dec - </time>
+          <a href="/Writeups/Another-Sample-Page">
+            Another Sample Page
+          </a>
+        </li>
+    
     </ul>
 
-  {% endif %}
+  
 </section>
+
+</article>
+      </section>
+    </div>
+  </div>
+
+   <footer>
+  <a href="https://extodez.github.io/Writeups/">
+    <span>
+        <b>Bl@CK_CAT</b>
+    </span>
+    
+    <span>© 2020</span>
+  </a>
+</footer>
+
+
+  
+</body>
+
+</html>
