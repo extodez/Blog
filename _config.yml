@@ -1,5 +1,9 @@
 title: Bl@CK_CAT-Blog
 description: "I Love CAT!"
+
+collections:
+  protected:
+  
 author:
   name: "Bl@ackCaT"
   #email: "someone@somewebsite.somedomain"
