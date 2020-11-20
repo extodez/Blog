@@ -1,3 +1,8 @@
+layout: secret_post
+title:  "Test Encrypt"
+date:   2019-01-01 00:00:00
+key: "my_secret_key"
+
 # [](#header-1)Info card
 ![](https://gblobscdn.gitbook.com/assets%2F-MHuMmzGhYGjfRNXyWFK%2F-MHvl49IgHnk-WKCt0u6%2F-MHvlnxDfRBJsqRVouf_%2Fimage.png?alt=media&token=992ad801-c46c-4ffb-9e02-1a2cab97283a)
 
